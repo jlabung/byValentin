@@ -12,7 +12,64 @@ secondary--> Source sans pro
   padding: 0;
   box-sizing: border-box;
 }
+:root {
+  --primary-color: #aaaaaa;
+  --secondary-color: #b39191;
+}
 body {
   font-family: "Source Sans Pro", sans-serif;
+  /*   background-color: #f6f6f6;
+ */
 }
 /* navigation bar style */
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 1vw 10vw;
+  align-items: center;
+  /*  margin-left: 10vw;
+  margin-right: 10vw; */
+}
+li {
+  display: inline-block;
+  padding-right: 2vw;
+}
+nav ul li a {
+  list-style-type: none;
+  text-decoration: none;
+  color: var(--primary-color);
+  font-size: 1.4vw;
+}
+ul li a:hover,
+.active {
+  text-decoration: underline;
+  color: var(--secondary-color);
+  transition: 0.5s ease;
+}
+.logo > img {
+  height: 50px;
+  width: 50px;
+}
+.soMe i {
+  display: inline-block;
+  padding-right: 1vw;
+  color: var(--primary-color);
+}
+.soMe i:hover {
+  color: var(--secondary-color);
+}
+
+/* LANDING PAGE */
+
+.bgImg {
+  background-image: url(./images/bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 87vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
