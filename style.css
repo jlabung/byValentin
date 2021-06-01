@@ -73,3 +73,15 @@ ul li a:hover,
   align-items: center;
   flex-direction: column;
 }
+/* CERAMICS PAGE */
+
+.product1 img,
+.product2 img,
+.product3 img,
+.product4 img {
+  width: 200px;
+}
+.products {
+  display: grid;
+  grid-auto-columns: minmax(10px, auto);
+}
