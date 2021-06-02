@@ -7,7 +7,31 @@
 body {
   font-family: "Source Sans Pro", sans-serif;
 }
-#aboutPic {
-  width: 50%;
+#aboutPic img {
+  width: 40vw;
   height: auto;
+  padding: 3%;
+  box-shadow: 5px 10px #ddc2c2;
+}
+
+#info {
+  display: grid;
+  justify-content: space-evenly;
+  grid-template-columns: 50% 50%;
+  grid-gap: 20px;
+  padding: 3%;
+}
+
+h1 {
+  font-size: 40px;
+}
+p {
+  font-size: 22px;
+}
+@media only screen and (max-width: 600px and down) {
+  #info {
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-gap: 20px;
+  }
 }
