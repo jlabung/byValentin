@@ -9,9 +9,10 @@ body {
   height: 100px;
 }
 #aboutPic img {
-  width: 100%;
-  height: auto;
-  padding: 5px;
+  width: 40vw;
+  height: 80vh;
+  /* padding: 10px; */
+  margin: 0 auto;
   display: flex;
 }
 #infoSection {
@@ -158,33 +159,31 @@ p {
 
 /* FOOTER */
 
-
-.page-wrapper{
+.page-wrapper {
   min-height: 100%;
 }
 
-
 /* Footer */
-.footer{
-  background: #AAAAAA;
+.footer {
+  background: #aaaaaa;
   color: #f6f6f6;
   height: 400px;
   position: relative;
 }
 
-.footer .footer-content{
+.footer .footer-content {
   /* border: 1px solid blue; */
-  height: 350px; 
-  display: flex; 
+  height: 350px;
+  display: flex;
 }
 
-.footer .footer-content .footer-section{
+.footer .footer-content .footer-section {
   flex: 1;
   padding: 25px;
   /* border: 1px solid white; */
 }
 
-.footer .footer-bottom{
+.footer .footer-bottom {
   background: grey;
   color: hotpink;
   height: 50px;
@@ -215,7 +214,7 @@ h2 {
   font-family: "Source Sans Pro", sans-serif;
   padding: 10px;
 }
-  h3{
+h3 {
   text-align: center;
   color: black;
   font-size: 20px;
@@ -223,10 +222,10 @@ h2 {
   padding: 10px;
 }
 
-.second-box{
+.second-box {
   /*  text-align: center;  */
   color: black;
-  justify-content: center; 
+  justify-content: center;
   /* align-items: center; */
   display: flex;
   font-size: 20px;
