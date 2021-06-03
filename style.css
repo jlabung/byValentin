@@ -246,9 +246,6 @@ main {
 }
 /* responsiveness for tablet */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
-  body {
-    background-color: #7c1f17;
-  }
   .content {
     display: grid;
     grid-template-columns: repeat(2, 0.8fr);
@@ -540,7 +537,7 @@ p {
   position: absolute;
   bottom: 0px;
   left: 0px;
-  padding-top: 20px; 
+  padding-top: 20px;
 }
 
 .map {
@@ -584,28 +581,25 @@ h3 {
   padding: 10px;
 }
 
-
-@media only screen and (max-width: 934px ) {
+@media only screen and (max-width: 934px) {
   .footer {
     height: auto;
   }
-  
+
   .footer .footer-content {
     height: auto;
     flex-direction: column;
   }
 
-  .footer-section address{
+  .footer-section address {
     height: auto;
     position: relative;
-
   }
 
-  .footer .footer-bottom{
+  .footer .footer-bottom {
     visibility: hidden;
   }
 
-  
   /* .footer .footer-content .footer-section {
     flex: 1;
     padding: 25px;
