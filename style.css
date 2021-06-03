@@ -320,7 +320,8 @@ main {
   }
   .product-img {
     margin-top: 3vw;
-    width: 40vw;
+    width: 60vw;
+    height: auto;
   }
   .amount {
     margin-top: 1vw;
@@ -351,7 +352,10 @@ main {
     height: 94vh;
   }
   img.modal-image {
-    width: 40vw;
+    width: 70vw;
+  }
+  .modal-desc {
+    width: 70vw;
   }
 }
 #aboutPic img {
