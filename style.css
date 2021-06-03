@@ -355,13 +355,16 @@ main {
     width: 70vw;
   }
   img.product-img {
-    width: 70vw;
+    width: 86vw;
   }
-  article.desc {
-    width: 70vw;
+  .sdesc {
+    width: 86vw;
+  }
+  .sdesc p {
+    width: 86vw;
   }
   .modal-desc {
-    width: 70vw;
+    font-size: 20px;
   }
 }
 #aboutPic img {
