@@ -356,15 +356,12 @@ main {
   img.modal-image {
     width: 40vw;
   }
-=======
-  height: 100px;
 }
 #aboutPic img {
   width: 40vw;
   height: 80vh;
   margin: 0 auto;
   display: flex;
-  
 }
 #infoSection {
   display: flex;
@@ -553,13 +550,11 @@ p {
   /* padding-top: 20px; */
 }
 
-.map{
+.map {
   height: auto;
   width: 80%;
   margin-left: 10%;
   margin-top: 5%;
-  
-  
 }
 
 h2 {
