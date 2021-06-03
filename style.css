@@ -163,12 +163,6 @@ p {
   min-height: 100%;
 }
 
-/* Footer */
-/* .mainfooter{
-  width: 100%;
-  color: red;
-} */
-
 .footer {
   background: #aaaaaa;
   color: #f6f6f6;
@@ -187,7 +181,6 @@ p {
 .footer .footer-content .footer-section {
   flex: 1;
   padding: 25px;
-  /* border: 1px solid white; */
 }
 
 .footer .footer-bottom {
@@ -199,7 +192,7 @@ p {
   position: absolute;
   bottom: 0px;
   left: 0px;
-  /* padding-top: 20px; */
+  padding-top: 20px; 
 }
 
 .map{
@@ -243,4 +236,33 @@ h3 {
   font-size: 20px;
   font-family: "Source Sans Pro", sans-serif;
   padding: 10px;
+}
+
+
+@media only screen and (max-width: 934px ) {
+  .footer {
+    height: auto;
+  }
+  
+  .footer .footer-content {
+    height: auto;
+    flex-direction: column;
+  }
+
+  .footer-section address{
+    height: auto;
+    position: relative;
+
+  }
+
+  .footer .footer-bottom{
+    visibility: hidden;
+  }
+
+  
+  /* .footer .footer-content .footer-section {
+    flex: 1;
+    padding: 25px;
+    border: 1px solid white;
+  } */
 }
