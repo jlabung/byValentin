@@ -354,6 +354,12 @@ main {
   img.modal-image {
     width: 70vw;
   }
+  img.product-img {
+    width: 35vw;
+  }
+  article.desc {
+    width: 35vw;
+  }
   .modal-desc {
     width: 70vw;
   }
