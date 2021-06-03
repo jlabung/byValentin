@@ -640,6 +640,9 @@ h3 {
   #valentinIntro p {
     font-size: 20px;
   }
+  #valentinIntro h1 {
+    text-align: center;
+  }
 
   /* contact page css */
   #col-lg-6,
