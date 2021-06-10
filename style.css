@@ -267,13 +267,17 @@ main {
 .imag img {
   width: 100%;
 }
+#aboutPic img {
+  width: 40vw;
+  max-width: 48vw;
+  max-height: 80vh;
+  margin: 0 auto;
+  display: flex;
+}
 
-
-  main {
-    margin: 5vw;
-  }
-
-
+main {
+  margin: 5vw;
+}
 
 #container {
   display: grid;
@@ -442,7 +446,7 @@ p {
   position: absolute;
   bottom: 0px;
   left: 0px;
-  padding-top: 20px; 
+  padding-top: 20px;
 }
 
 .map {
@@ -486,34 +490,30 @@ h3 {
   padding: 10px;
 }
 
-
-@media only screen and (max-width: 934px ) {
+@media only screen and (max-width: 934px) {
   .footer {
     height: auto;
   }
-  
+
   .footer .footer-content {
     height: auto;
     flex-direction: column;
   }
 
-  .footer-section address{
+  .footer-section address {
     height: auto;
     position: relative;
-
   }
 
-  .footer .footer-bottom{
+  .footer .footer-bottom {
     visibility: hidden;
   }
 
-  
   /* .footer .footer-content .footer-section {
     flex: 1;
     padding: 25px;
     border: 1px solid white;
   } */
-
 }
 /* to top btn */
 #myBtn {
@@ -653,43 +653,42 @@ h3 {
   .modal-desc {
     font-size: 20px;
   }
+
   /* about page mobile */
-  #aboutPic img {
+  /* #aboutPic img {
     display: block;
-    margin: 0 auto;
-    width: 75vw;
-    height: auto;
-  }
-  #infoSection {
-    display: block;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-  }
-  /* #valentinIntro {
+    /* margin: 0 auto; */
+  /* width: 4vw;
+    height: 10vh; */
+}
+*/ #infoSection {
+  display: block;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+/* #valentinIntro {
     max-width: 50vw;
   } */
 
-  #info {
-    display: grid;
-    grid-template-columns: none;
-  }
-  #valentinIntro p {
-    font-size: 20px;
-  }
-  #valentinIntro h1 {
-    text-align: center;
-  }
-
-  /* contact page css */
-  #col-lg-6,
-  .col-log-7 {
-    position: relative;
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    display: grid;
-    grid-template-columns: none;
-  }
+#info {
+  display: grid;
+  grid-template-columns: none;
+}
+#valentinIntro p {
+  font-size: 20px;
+}
+#valentinIntro h1 {
+  text-align: center;
 }
 
+/* contact page css */
+#col-lg-6,
+.col-log-7 {
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  display: grid;
+  grid-template-columns: none;
+}
