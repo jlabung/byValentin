@@ -479,11 +479,11 @@ p {
 h4 {
   font-size: 30px;
   /* font-family: "Kanit", sans-serif; */
-  font-family: "CormorantGaramond-Light" ;
+  font-family: "CormorantGaramond-Light";
   text-transform: uppercase;
   text-align: center;
   /* color: black; */
-  color:#ffc7c7;
+  color: #ffc7c7;
 }
 
 .first-box {
@@ -682,6 +682,10 @@ h3 {
     /* margin: 0 auto; */
   /* width: 4vw;
     height: 10vh; */
+  #info {
+    display: grid;
+    grid-template-columns: none;
+  }
 }
 */ #infoSection {
   display: block;
@@ -693,10 +697,6 @@ h3 {
     max-width: 50vw;
   } */
 
-#info {
-  display: grid;
-  grid-template-columns: none;
-}
 #valentinIntro p {
   font-size: 20px;
 }
