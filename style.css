@@ -393,11 +393,15 @@ form {
 }
 
 #info {
+  margin-top: 9vw;
   display: grid;
   justify-content: space-evenly;
   grid-template-columns: 50% 50%;
   grid-gap: 20px;
   padding: 3%;
+}
+#info img {
+  width: 44vw;
 }
 
 h1 {
