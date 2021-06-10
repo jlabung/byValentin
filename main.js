@@ -22,7 +22,7 @@ function showService(singleService) {
   const img_url = singleService._embedded["wp:featuredmedia"][0].source_url;
   clone.querySelector(".name").textContent = singleService.title.rendered;
   clone.querySelector(".price").innerHTML = singleService.price;
-  clone.querySelector(".sdesc").innerHTML = singleService.shortdescription;
+  // clone.querySelector(".sdesc").innerHTML = singleService.shortdescription;
   clone.querySelector(".product-img").src = img_url;
 
   clone.querySelector("button").addEventListener("click", () => {
