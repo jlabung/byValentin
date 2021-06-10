@@ -464,12 +464,14 @@ p {
   margin-top: 5%;
 }
 
-h2 {
+h4 {
   font-size: 30px;
-  font-family: "Kanit", sans-serif;
+  /* font-family: "Kanit", sans-serif; */
+  font-family: "CormorantGaramond-Light" ;
   text-transform: uppercase;
   text-align: center;
-  color: black;
+  /* color: black; */
+  color:#ffc7c7;
 }
 
 .first-box {
