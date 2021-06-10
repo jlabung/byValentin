@@ -194,6 +194,7 @@ ul li a:hover,
   text-align: center;
   flex-direction: column;
   row-gap: 2em;
+  margin: 0 auto;
 }
 
 .products {
@@ -704,6 +705,21 @@ h3 {
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
+  padding-top: 75px;
   display: grid;
   grid-template-columns: none;
+}
+#col-lg-6 {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+#personalInfo {
+  flex: 0 0 50%;
+  max-width: 50%;
+  margin: 0 auto;
+}
+#col-log-7 {
+  margin: 0 auto;
 }
