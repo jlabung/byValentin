@@ -22,7 +22,7 @@ function showService(singleService) {
   const img_url = singleService._embedded["wp:featuredmedia"][0].source_url;
   clone.querySelector(".name").textContent = singleService.title.rendered;
   clone.querySelector(".price").innerHTML = singleService.price;
-  clone.querySelector(".sdesc").innerHTML = singleService.shortdescription;
+  // clone.querySelector(".sdesc").innerHTML = singleService.shortdescription;
   clone.querySelector(".product-img").src = img_url;
 
   clone.querySelector("button").addEventListener("click", () => {
@@ -46,3 +46,25 @@ const modal = document.querySelector(".modal-background");
 modal.addEventListener("click", () => {
   modal.classList.add("hide");
 });
+var mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function () {
+  scrollFunction();
+};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+const toTop = document.querySelector("#myBtn");
+toTop.addEventListener("click", topFunction);
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
