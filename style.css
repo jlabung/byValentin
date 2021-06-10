@@ -53,7 +53,14 @@ details {
 .largeNav {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-around;
+  overflow: hidden;
+  align-items: center;
+  background: rgba(255, 255, 255, 85%);
+  margin-left: 0;
+  position: fixed;
+  width: -webkit-fill-available;
+  z-index: 5;
 }
 details > summary {
   list-style-type: none;
@@ -122,7 +129,7 @@ ul li a:hover,
 }
 
 .logo img {
-  width: 50px;
+  width: 220px;
 }
 .soMe i {
   display: inline-block;
@@ -421,7 +428,7 @@ p {
 
 .footer .footer-bottom {
   background: grey;
-  color: hotpink;
+  color: #ffc7c7;
   height: 50px;
   width: 100%;
   text-align: center;
